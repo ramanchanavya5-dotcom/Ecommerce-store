@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alpha Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h1>🛍 Alpha Store</h1>
+        </div>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Products">
+
+            <button onclick="searchProduct()">
+                Search
+            </button>
+
+        </div>
+
+        <div class="header-buttons">
+
+            <button onclick="toggleDarkMode()">
+                🌙
+            </button>
+
+            <div class="cart-icon">
+
+                🛒
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <h2 class="title">
+            Our Products
+        </h2>
+
+        <section id="products">
+
+        </section>
+
+        <section id="cart">
+
+    <h2>Shopping Cart</h2>
+
+    <div id="cart-items"></div>
+
+    
+
+</section>
+    </main>
+
+    <footer>
+
+        <p>
+
+            © 2026 Alpha Store |
+            Developed by Komali
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
